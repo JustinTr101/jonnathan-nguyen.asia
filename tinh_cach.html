@@ -54,6 +54,7 @@
     <!-- common css -->
 
     <link rel="stylesheet" href="css/5b92e556f10f.css" type="text/css">
+    <link rel="stylesheet" href="css/language.css">
 
 
 
@@ -68,7 +69,7 @@
             <nav class="navbar is-fixed-top">
                 <div class="container">
                     <div class="navbar-brand">
-                        <a class="navbar-item" href="index.html">
+                        <a class="navbar-item" href="trang_chu.html">
                             <!--  <img src="img/logo.png"> -->
                             <span class="brand-name"><img src="img/logo.png"></span>
                         </a>
@@ -83,11 +84,11 @@
 
                             <nav class="global-nav">
                                 <ul class="global-nav__list">
-                                    <li><a data-page="Home" href="index.html" class="global-nav-item-1">Home</a></li>
-                                    <li><a data-page="Products" href="products.html" class="global-nav-item-2">Products</a></li>
-                                    <li><a data-page="Personality" href="pymetrics.html" class="global-nav-item-3">Personality</a></li>
-                                    <li><a data-page="About Me" href="about.html" class="global-nav-item-3">About Me</a></li>
-                                    <li><a data-page="Contact" href="contact.html" class="global-nav-item-4">Contact</a></li>
+                                    <li><a data-page="Home" href="trang_chu.html" class="global-nav-item-1">Trang Chủ</a></li>
+                                    <li><a data-page="Products" href="san_pham.html" class="global-nav-item-2">Sản Phẩm</a></li>
+                                    <li><a data-page="Personality" href="tinh_cach.html" class="global-nav-item-3">Tính Cách</a></li>
+                                    <li><a data-page="About Me" href="ve_toi.html" class="global-nav-item-3">Về Tôi</a></li>
+                                    <li><a data-page="Contact" href="lien_he.html" class="global-nav-item-4">Liên Hệ</a></li>
 
                                     <div class="social">
                                         <a href="https://www.linkedin.com/in/chithanh1997/" target="_blank" class="novile-items"><i class="fa fa fa-linkedin"></i></a>>
@@ -117,28 +118,41 @@
                         <div class="navbar-menu">
 
                             <div class="navbar-item is-nav-link">
-                                <a class="is-centered-responsive" href="index.html">Home</a>
+                                <a class="is-centered-responsive" href="trang_chu.html">Trang Chủ</a>
                             </div>
-                            <!-- Menu item -->
+
+
                             <div class="navbar-item is-nav-link">
-                                <a class="is-centered-responsive" href="products.html">Products</a>
+                                <a class="is-centered-responsive" href="san_pham.html">Sản Phẩm</a>
                             </div>
 
                             <div class="navbar-item is-nav-link">
-                                <a class="is-centered-responsive" href="pymetrics.html">Personality</a>
-                            </div>
-                            <!-- Menu item -->
-                            <div class="navbar-item is-nav-link">
-                                <a class="is-centered-responsive" href="about.html">About Me</a>
-                            </div>
-                            <!-- Menu item -->
-                            <div class="navbar-item is-nav-link">
-                                <a class="is-centered-responsive" href="contact.html">Contact</a>
+                                <a class="is-centered-responsive" href="tinh_cach.html">Tính Cách</a>
                             </div>
 
-                            <div class="buttons">
-                                <a href="mailto: chithanh12325@gmail.com?subject=Hey Thanh, let's have a chat!" target="_blank" class="button is-talk">
-                    Let's Chat</a>
+                            <div class="navbar-item is-nav-link">
+                                <a class="is-centered-responsive" href="ve_toi.html">Về Tôi</a>
+                            </div>
+
+                            <div class="navbar-item is-nav-link">
+                                <a class="is-centered-responsive" href="lien_he.html">Liên Hệ</a>
+                            </div>
+
+                            <div class="language">
+                                <form class="mltlngg_switcher" name="mltlngg_change_language" action="pymetrics.html">
+                                    <ul class="mltlngg-lang-switch">
+                                        <li>
+                                            <img src="img/VN.svg">
+                                            <ul>
+                                                <li>
+                                                    <button class="mltlngg-lang-button-icons" name="mltlngg_change_display_lang" value="vi" title="English">
+                                                        <img class="mltlngg-lang" src="img/USA.svg" alt="English">
+                                                     </button>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -154,9 +168,9 @@
             <section class="section">
                 <div class="container">
                     <div class="header">
-                        <h1 class="is-uppercase aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200" data-aos-easing="ease-out-quart"><strong>My pymetrics profile</strong></h1>
+                        <h1 class="is-uppercase aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200" data-aos-easing="ease-out-quart"><strong>ĐÁNH GIÁ KHẢ NĂNG</strong></h1>
                         <p class="aos-init aos-animate" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="800" data-aos-easing="ease-out-quart">
-                            Based on Nielsen Test on <a href="https://www.pymetrics.com/" target="_blank"> "pymetrics.com"</a>
+                            Dựa vào bài test của Nielsen trên <a href="https://www.pymetrics.com/" target="_blank"> "pymetrics.com"</a>
                         </p>
                         <a href="https://www.pymetrics.ai/" target="_blank"><img src="img/gallery/logo.png" alt=""></a>
                     </div>
@@ -172,13 +186,12 @@
 
                     <div class="explainer-card">
                         <div class="title ng-binding">
-                            Understanding The Results
+                            Hiểu Kết Quả
                         </div>
 
                         <div class="description results ng-binding">
-                            See where your behavior stands out most from the general population - these are your "most unique" categories.<br><br> pymetrics categories measure natural tendencies that are quite stable and tend not to change over time.
-                            Because of this, your profile will be saved for one year, after which you will have the opportunity to replay the games if you choose.<br><br> Remember, this is your personalized profile and it will stay the same no matter
-                            what job you are applying to.
+                            Xem nơi hành vi của bạn nổi bật nhất so với dân số nói chung - đây là những danh mục "độc nhất" của bạn. <br> <br> danh mục pymetrics đo xu hướng tự nhiên khá ổn định và có xu hướng không thay đổi theo thời gian. Vì điều này,
+                            hồ sơ của bạn sẽ được lưu trong một năm, sau đó bạn sẽ có cơ hội chơi lại các trò chơi nếu bạn chọn. <br> <br> Hãy nhớ rằng, đây là hồ sơ cá nhân của bạn và nó sẽ giữ nguyên cho dù thế nào đi nữa công việc bạn đang ứng tuyển.
                         </div>
                     </div>
 
@@ -203,11 +216,11 @@
                                         <!-- end ngIf: factor.index==0 -->
 
                                         <div class="factor-title">
-                                            <h3 class="factor-name ng-binding">1. Effort</h3>
+                                            <h3 class="factor-name ng-binding">1. Sự Cố gắng </h3>
 
                                             <!-- ngIf: factor.is_most_unique -->
                                             <h3 ng-if="factor.is_most_unique" class="unique-badge ng-binding ng-scope">
-                                                Most Unique
+                                                Độc đáo nhất
 
                                                 <label for="1_radio">
                     <i class="fa fa-info-circle"></i>
@@ -230,7 +243,7 @@
                                         </div>
 
                                         <div class="factor-long-description ng-binding">
-                                            You tend to work equally hard on all tasks, regardless of how much you expect to be rewarded by completing tasks successfully.
+                                            Bạn có xu hướng làm việc chăm chỉ như nhau trên tất cả các nhiệm vụ, bất kể bạn mong đợi được thưởng bao nhiêu bằng cách hoàn thành thành công nhiệm vụ.
                                         </div>
 
                                         <div class="more-details">
@@ -291,7 +304,7 @@
                                         <!-- ngIf: factor.index==0 -->
 
                                         <div class="factor-title">
-                                            <h3 class="factor-name ng-binding">2. Risk Tolerance</h3>
+                                            <h3 class="factor-name ng-binding">2. Chấp Nhận Rủi Ro </h3>
 
                                             <!-- ngIf: factor.is_most_unique -->
                                             <h3 ng-if="factor.is_most_unique" class="unique-badge ng-binding ng-scope">
@@ -318,7 +331,7 @@
                                         </div>
 
                                         <div class="factor-long-description ng-binding">
-                                            You tend to carefully test options and choose the safest method to achieve an objective. You also tend to be averse to negative outcomes.
+                                            Bạn có xu hướng kiểm tra cẩn thận các lựa chọn và chọn phương pháp an toàn nhất để đạt được mục tiêu. Bạn cũng có xu hướng không thích kết quả tiêu cực.
                                         </div>
 
                                         <div class="more-details">
@@ -379,7 +392,7 @@
                                         <!-- ngIf: factor.index==0 -->
 
                                         <div class="factor-title">
-                                            <h3 class="factor-name ng-binding">3. Fairness</h3>
+                                            <h3 class="factor-name ng-binding">3. Công Bằng </h3>
 
                                             <!-- ngIf: factor.is_most_unique -->
                                             <h3 ng-if="factor.is_most_unique" class="unique-badge ng-binding ng-scope">
@@ -406,7 +419,7 @@
                                         </div>
 
                                         <div class="factor-long-description ng-binding">
-                                            You tend to be slower and more critical when judging the fairness of social situations.
+                                            Bạn có xu hướng chậm hơn và quan trọng hơn khi đánh giá sự công bằng của các tình huống xã hội.
                                         </div>
 
                                         <div class="more-details">
@@ -468,7 +481,7 @@
                                         <!-- ngIf: factor.index==0 -->
 
                                         <div class="factor-title">
-                                            <h3 class="factor-name ng-binding">4. Attention</h3>
+                                            <h3 class="factor-name ng-binding">4. Sự Chú Ý </h3>
 
                                             <!-- ngIf: factor.is_most_unique -->
 
@@ -476,7 +489,7 @@
                                         </div>
 
                                         <div class="factor-long-description ng-binding">
-                                            You tend not to be easily flustered by mistakes, taking them in your stride as you complete a task. You also tend to be quick to react and respond to information outside of the immediate task you are working on.
+                                            Bạn có xu hướng không dễ bị bối rối bởi những sai lầm, đưa chúng vào bước tiến của bạn khi bạn hoàn thành một nhiệm vụ. Bạn cũng có xu hướng nhanh chóng phản ứng và phản hồi thông tin bên ngoài nhiệm vụ trước mắt mà bạn đang làm.
                                         </div>
 
                                         <div class="more-details">
@@ -537,7 +550,7 @@
                                         <!-- ngIf: factor.index==0 -->
 
                                         <div class="factor-title">
-                                            <h3 class="factor-name ng-binding">5. Emotion</h3>
+                                            <h3 class="factor-name ng-binding">5. Cảm Xúc </h3>
 
                                             <!-- ngIf: factor.is_most_unique -->
 
@@ -545,7 +558,7 @@
                                         </div>
 
                                         <div class="factor-long-description ng-binding">
-                                            You tend to interpret emotions from the facial expressions of others, rather than from the information present in the situation or context.
+                                            Bạn có xu hướng diễn giải cảm xúc từ nét mặt của người khác, thay vì từ thông tin có trong tình huống hoặc bối cảnh.
                                         </div>
 
                                         <div class="more-details">
@@ -606,7 +619,7 @@
                                         <!-- ngIf: factor.index==0 -->
 
                                         <div class="factor-title">
-                                            <h3 class="factor-name ng-binding">6. Decision Making</h3>
+                                            <h3 class="factor-name ng-binding">6. Đưa Ra Quyết Định </h3>
 
                                             <!-- ngIf: factor.is_most_unique -->
 
@@ -614,7 +627,7 @@
                                         </div>
 
                                         <div class="factor-long-description ng-binding">
-                                            You tend to take time to reflect before making decisions, rather than making a decision based on gut instinct. You are also likely to be a thoughtful planner who thinks things through before reacting to a situation.
+                                            Bạn có xu hướng dành thời gian để suy ngẫm trước khi đưa ra quyết định, thay vì đưa ra quyết định dựa trên bản năng ruột thịt. Bạn cũng có khả năng là một người lập kế hoạch chu đáo, người nghĩ mọi việc thông qua trước khi phản ứng với một tình huống.
                                         </div>
 
                                         <div class="more-details">
@@ -675,7 +688,7 @@
                                         <!-- ngIf: factor.index==0 -->
 
                                         <div class="factor-title">
-                                            <h3 class="factor-name ng-binding">7. Learning</h3>
+                                            <h3 class="factor-name ng-binding">7. Học Tập </h3>
 
                                             <!-- ngIf: factor.is_most_unique -->
 
@@ -683,7 +696,7 @@
                                         </div>
 
                                         <div class="factor-long-description ng-binding">
-                                            You tend to learn quickly from mistakes. You may find it easy to detect patterns in your environment, allowing you to adapt your behavior and respond to feedback with ease.
+                                            Bạn có xu hướng học hỏi nhanh chóng từ những sai lầm. Bạn có thể thấy dễ dàng phát hiện các mẫu trong môi trường của mình, cho phép bạn điều chỉnh hành vi của mình và phản hồi một cách dễ dàng.
                                         </div>
 
                                         <div class="more-details">
@@ -744,7 +757,7 @@
                                         <!-- ngIf: factor.index==0 -->
 
                                         <div class="factor-title">
-                                            <h3 class="factor-name ng-binding">8. Generosity</h3>
+                                            <h3 class="factor-name ng-binding">8. Sự Hào Phóng</h3>
 
                                             <!-- ngIf: factor.is_most_unique -->
 
@@ -752,7 +765,7 @@
                                         </div>
 
                                         <div class="factor-long-description ng-binding">
-                                            You tend to be more focused on achieving your personal goals, as opposed to sharing your resources willingly with others.
+                                            Bạn có xu hướng tập trung hơn vào việc đạt được mục tiêu cá nhân của mình, trái ngược với việc chia sẻ tài nguyên của bạn một cách tự nguyện với người khác.
                                         </div>
 
                                         <div class="more-details">
@@ -813,7 +826,7 @@
                                         <!-- ngIf: factor.index==0 -->
 
                                         <div class="factor-title">
-                                            <h3 class="factor-name ng-binding">9. Focus</h3>
+                                            <h3 class="factor-name ng-binding">9. Sự Tập Trung</h3>
 
                                             <!-- ngIf: factor.is_most_unique -->
 
@@ -821,7 +834,7 @@
                                         </div>
 
                                         <div class="factor-long-description ng-binding">
-                                            You tend to apply a focused and consistent approach to your work. You are likely able to concentrate on a single task even in the presence of distracting information.
+                                            Bạn có xu hướng áp dụng một cách tiếp cận tập trung và nhất quán vào công việc của bạn. Bạn có khả năng tập trung vào một nhiệm vụ ngay cả khi có thông tin gây mất tập trung.
                                         </div>
 
                                         <div class="more-details">
@@ -872,7 +885,7 @@
                     </div>
                     <div class="bottom-link">
                         <a class="ng-binding" href="https://www.16personalities.com/profiles/449471e7b738e" target="_blank">
-                      View my personality test
+                      Xem Thêm Bài Đánh Giá Tính Cách
                         </a>
                     </div>
                 </div>
@@ -886,11 +899,11 @@
                         <a href="https://www.pymetrics.ai/" target="_blank">
                             <h4>Pymetrics.ai</h4>
                         </a>
-                        <p>Pymetrics helps companies better understand their workforce while making better & fairer people decisions with behavioral science and ethical AI technology.</p>
+                        <p>Pymetrics giúp các công ty hiểu rõ hơn về lực lượng lao động của họ trong khi đưa ra quyết định của mọi người tốt hơn và công bằng hơn với khoa học hành vi và công nghệ AI đánh giá đạo đức.</p>
                     </div>
 
                     <div class="footersocial">
-                        <h4>Social Links</h4>
+                        <h4>Mạng Xã Hội</h4>
                         <a href="https://www.linkedin.com/in/chithanh1997" target="_blank" class="contact-icon"><i class="fa fa fa-linkedin"></i></a>
                         <a href="https://www.facebook.com/chithanh1997" target=" _blank " class="contact-icon "><i class="fa fa-facebook "></i></a>
                         <a href="https://zalo.me/0359773397" target="_blank" class="contact-icon"><i class="fa fa fa-comment-alt"></i></a>

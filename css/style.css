@@ -1,6 +1,6 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 :root {
-    --fontMono: 'garamond';
+    --fontMono: 'sans-serif';
     --fontSans: 'Montserrat', sans-serif;
     --primary_dark: #1c1d1e;
     --primary_light: #fff;
@@ -2623,7 +2623,7 @@ a {
 
 .herotext {
     text-transform: uppercase;
-    padding: 1.1rem 1rem 1.1rem 0;
+    padding: 1.1rem 0 1.1rem 0;
     color: whitesmoke;
     font-weight: 800;
 }
