@@ -2787,7 +2787,7 @@ a {
     .heroimg {
         grid-column: 6/13;
         grid-row: 1;
-        padding: 0 0 0 10rem;
+        /*padding: 0 0 0 10rem;*/
         transform: scale(0.8);
     }
     .heroimg_invert {

@@ -262,7 +262,7 @@ body:not(.rtl) .mltlngg-lang-switch.mltlngg-lang-switch-names>li:after {
 .mltlngg-lang-switch ul {
     margin-left: 3px !important;
     margin-right: 3px !important;
-    height: 42px;
+    height: 32px;
 }
 
 .mltlngg-lang-switch>li img {
