@@ -2656,7 +2656,7 @@ a {
         justify-content: flex-end;
         margin-left: auto;
         align-items: center;
-        padding: 0 4% 0 0;
+        /*padding: 0 4% 0 0;*/
     }
     .container>.navbar .navbar-brand,
     .navbar>.container .navbar-brand {
