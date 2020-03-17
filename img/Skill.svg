@@ -115,8 +115,9 @@ viewBox="0 0 1916 2202"
       transform-box:fill-box;
        }              
            @keyframes SSS {
-      100% {
-        transform: translate(0px,-30px);
+      from {
+        transform: translate(0px)}
+        to { transform: translateY(-50px)}
       }
     }
         #line1 {
@@ -130,15 +131,36 @@ viewBox="0 0 1916 2202"
         stroke-dashoffset: 100;
       }
     }
-        #money {
-      animation: money 2s infinite alternate;
+        #money1 {
+      animation: money1 2s infinite alternate;
     
     }
-    @keyframes money {
-      100% {
-        transform: translate(0px,-200px);
+    @keyframes money1 {
+      from {
+        transform: translateY(0px)}
+        to{transform: translateY(-200px)}
       }
+    
+          #money2 {
+      animation: money2 3s infinite alternate;
+    
     }
+    @keyframes money2 {
+      from {
+        transform: translateY(0px)}
+        to {transform: translateY(-200px)}
+      }
+    
+          #money3 {
+      animation: money3 2.5s infinite alternate;
+    
+    }
+    @keyframes money3 {
+      from {
+        transform: translateY(0px)}
+        to{transform: translateY(-200px)}
+      }
+    
   </style>
  </defs>
  <g id="Layer_x0020_1">
@@ -171,9 +193,13 @@ viewBox="0 0 1916 2202"
     <path class="fil0" d="M1350 8l1 -7c11,0 22,1 33,3l-1 7c-11,-2 -22,-3 -33,-3z"/>
    </g>
    <path class="fil2" d="M1429 2189c0,-8 10,-13 -605,-13 -615,0 -605,5 -605,13 0,7 -10,13 605,13 615,0 605,-6 605,-13z"/>
-   <g id="money">
+   <g id="money1">
    <path class="fil3" d="M1734 1423l5 -21c2,-7 8,-11 15,-9l11 3 3 -11 19 5 -3 11 23 6 -3 12 -8 11 -30 -8 -1 5 22 24c6,7 6,11 4,19l-5 22c-2,7 -8,11 -16,9l-11 -2 -2 10 -19 -5 2 -10 -23 -6 6 -25 35 9 2 -6 -22 -25c-6,-6 -6,-10 -4,-18z"/>
+   </g>
+   <g id="money2">
    <path class="fil3" d="M333 1879l0 -21c-1,-7 4,-13 12,-13l11 0 0 -11 19 -1 1 11 23 -1 1 13 -5 13 -30 1 0 4 28 18c7,4 9,8 9,16l1 23c0,8 -5,13 -13,13l-11 1 0 10 -19 1 0 -11 -24 1 -1 -25 36 -1 -1 -7 -28 -17c-7,-5 -8,-9 -9,-17z"/>
+   </g>
+   <g id="money3">
    <path class="fil3" d="M1352 1506l-6 -30c-3,-11 2,-20 11,-22l14 -4 -3 -16 24 -6 3 15 30 -8 4 18 -2 20 -38 10 1 7 40 16c10,4 13,10 16,22l7 32c3,11 -2,20 -11,22l-14 4 3 15 -24 7 -3 -15 -30 8 -8 -36 44 -12 -2 -9 -40 -17c-10,-4 -13,-10 -16,-21z"/>
    </g>
    <path class="fil4" d="M313 439c-142,0 -262,-85 -299,-202 -9,28 -14,58 -14,89 0,160 130,290 290,290 161,0 291,-130 291,-290 0,-8 -1,-15 -1,-22 -55,81 -154,135 -267,135z"/>

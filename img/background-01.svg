@@ -20,20 +20,240 @@
     }
 	        #bubble1 {
       animation-name: bubble1;
-      animation-duration: 1000ms;
+      animation-duration: 3000ms;
       animation-timing-function: cubic-bezier(0,-.49,-.76,1);
       animation-iteration-count: infinite;
-      animation-direction: alternate;
+      
       transform-origin: center;
-       }
+	         }
            @keyframes bubble1 {
-      100% {
-        transform: translate(0px,-18px);
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
       }
-    }
+	  
+
+	          #bubble2 {
+      animation-name: bubble2;
+      animation-duration: 3700ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble2 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
+	          #bubble3 {
+      animation-name: bubble3;
+      animation-duration: 3600ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble3 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
+	          #bubble4 {
+      animation-name: bubble4;
+      animation-duration: 3500ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble4 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
+	          #bubble5 {
+      animation-name: bubble5;
+      animation-duration: 3300ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble5 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
+	          #bubble6 {
+      animation-name: bubble6;
+      animation-duration: 3300ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble6 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
+	          #bubble7 {
+      animation-name: bubble7;
+      animation-duration: 3800ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble7 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
+	          #bubble8 {
+      animation-name: bubble8;
+      animation-duration: 3500ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble8 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
+	          #bubble9 {
+      animation-name: bubble9;
+      animation-duration: 3900ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble9 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
+	          #bubble10 {
+      animation-name: bubble10;
+      animation-duration: 2800ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble10 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
+	          #bubble11 {
+      animation-name: bubble11;
+      animation-duration: 3000ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble11 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+	          #bubble12 {
+      animation-name: bubble12;
+      animation-duration: 3500ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble12 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+	          #bubble13 {
+      animation-name: bubble13;
+      animation-duration: 3100ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble13 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+	          #bubble14 {
+      animation-name: bubble14;
+      animation-duration: 3900ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble14 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+	          #bubble15 {
+      animation-name: bubble15;
+      animation-duration: 4000ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble15 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+	          #bubble16 {
+      animation-name: bubble16;
+      animation-duration: 3600ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble16 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+	          #bubble17 {
+      animation-name: bubble17;
+      animation-duration: 3900ms;
+      animation-timing-function: cubic-bezier(0,-.49,-.76,1);
+      animation-iteration-count: infinite;
+      
+      transform-origin: center;
+	         }
+           @keyframes bubble17 {
+      from {
+        transform: translateY(10px)}
+		to {transform: translateY(-350px)}
+      }
+
           #circle {
       animation-name: circle;
-      animation-duration: 1000ms;
+      animation-duration: 4200ms;
       animation-timing-function: cubic-bezier(.21,-0.44,.79,1.45);
       animation-iteration-count: infinite;
       animation-direction: alternate;
@@ -110,8 +330,8 @@
 				</g>
 			</g>
 		</g>
-	<g id="bubble1" transform="translate(0.696000, 0.688672)">
-		<g>	
+	<g>
+		<g id="bubble1" transform="translate(0.696000, 0.688672)">	
 				<radialGradient id="SVGID_3_" cx="-3990.4189" cy="281.2861" r="6.9897" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
 				<stop  offset="1" style="stop-color:#00A9FF"/>
@@ -122,7 +342,7 @@
 			
 				<ellipse transform="matrix(-0.8862 -0.4633 0.4633 -0.8862 607.0031 718.3193)" fill="#58FFFE" cx="391.729" cy="284.605" rx="0.627" ry="1.035"/>
 		</g>
-		<g>
+		<g id="bubble2" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_4_" cx="-3842.5459" cy="139.9561" r="2.6035" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -134,7 +354,7 @@
 			
 				<ellipse transform="matrix(-0.8854 -0.4648 0.4648 -0.8854 388.9396 378.2559)" fill="#58FFFE" cx="241.089" cy="141.192" rx="0.233" ry="0.385"/>
 		</g>
-		<g>
+		<g id="bubble3" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_5_" cx="-3846.0557" cy="277.3623" r="2.6035" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -146,7 +366,7 @@
 			
 				<ellipse transform="matrix(-0.885 -0.4656 0.4656 -0.885 331.3689 639.0374)" fill="#58FFFE" cx="244.602" cy="278.597" rx="0.233" ry="0.386"/>
 		</g>
-		<g>
+		<g id="bubble4" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_6_" cx="-3832.2319" cy="310.3262" r="2.6038" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -158,7 +378,7 @@
 			
 				<ellipse transform="matrix(-0.8855 -0.4647 0.4647 -0.8855 290.3328 694.6835)" fill="#58FFFE" cx="230.776" cy="311.563" rx="0.233" ry="0.385"/>
 		</g>
-		<g>
+		<g id="bubble5" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_7_" cx="-3840.8428" cy="180.7734" r="2.6038" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -170,7 +390,7 @@
 			
 				<ellipse transform="matrix(-0.8863 -0.463 0.463 -0.8863 367.2894 454.1756)" fill="#58FFFE" cx="239.387" cy="182.01" rx="0.234" ry="0.386"/>
 		</g>
-		<g>
+		<g id="bubble6" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_8_" cx="-3990.4131" cy="163.1777" r="2.604" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -182,7 +402,7 @@
 			
 				<ellipse transform="matrix(-0.8868 -0.4622 0.4622 -0.8868 657.8676 490.0014)" fill="#58FFFE" cx="388.958" cy="164.414" rx="0.233" ry="0.385"/>
 		</g>
-		<g>
+		<g id="bubble7" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_9_" cx="-3845.9814" cy="114.2974" r="6.99" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -194,7 +414,7 @@
 			
 				<ellipse transform="matrix(-0.8863 -0.463 0.463 -0.8863 412.0166 336.3707)" fill="#58FFFE" cx="247.292" cy="117.617" rx="0.627" ry="1.033"/>
 		</g>
-		<g>
+		<g id="bubble8" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_10_" cx="-3979.1489" cy="321.8994" r="4.6838" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -206,7 +426,7 @@
 			
 				<ellipse transform="matrix(-0.8859 -0.4639 0.4639 -0.8859 564.4119 787.076)" fill="#58FFFE" cx="379.005" cy="324.124" rx="0.42" ry="0.693"/>
 		</g>
-		<g>
+		<g id="bubble9" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_11_" cx="-3848.2632" cy="286.6045" r="4.6838" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -218,7 +438,7 @@
 			
 				<ellipse transform="matrix(-0.8864 -0.463 0.463 -0.8864 334.3286 659.7126)" fill="#58FFFE" cx="248.119" cy="288.83" rx="0.42" ry="0.692"/>
 		</g>
-		<g>
+		<g id="bubble10" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_12_" cx="-3989.2803" cy="315.1699" r="2.8555" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -230,7 +450,7 @@
 			
 				<ellipse transform="matrix(-0.8855 -0.4647 0.4647 -0.8855 584.4305 777.1003)" fill="#58FFFE" cx="387.984" cy="316.526" rx="0.255" ry="0.423"/>
 		</g>
-		<g>
+		<g id="bubble11" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_13_" cx="-3994.2231" cy="265.7549" r="2.8557" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -1562,7 +1782,7 @@
 			S223.906,200.541,223.906,188.126z"/>
 		<path fill="#45FFFF" d="M414.917,265.028c0,0,1.038,14.116,1.023,17.156c-0.01,3.044-1.255,19.058-1.255,19.058
 			s-0.668-9.428-0.604-18.75C414.129,275.984,414.917,270.131,414.917,265.028z"/>
-		<g>
+		<g id="bubble12" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_29_" cx="-3904.0259" cy="210.1406" r="4.6838" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -1574,7 +1794,7 @@
 			
 				<ellipse transform="matrix(-0.8854 -0.4648 0.4648 -0.8854 474.2406 541.6388)" fill="#58FFFE" cx="303.882" cy="212.365" rx="0.42" ry="0.693"/>
 		</g>
-		<g>
+		<g id="bubble13" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_30_" cx="-3928.4209" cy="59.1748" r="4.6846" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -1586,7 +1806,7 @@
 			<path fill="#58FFFE" d="M327.903,61.205c-0.176,0.338-0.155,0.7,0.052,0.808c0.204,0.107,0.516-0.08,0.691-0.419
 				c0.18-0.339,0.156-0.701-0.049-0.808C328.393,60.678,328.084,60.866,327.903,61.205z"/>
 		</g>
-		<g>
+		<g id="bubble14" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_31_" cx="-3973.1021" cy="36.7803" r="4.6836" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -1598,7 +1818,7 @@
 			
 				<ellipse transform="matrix(-0.8861 -0.4634 0.4634 -0.8861 685.379 246.3964)" fill="#58FFFE" cx="372.958" cy="39.004" rx="0.42" ry="0.693"/>
 		</g>
-		<g>
+		<g id="bubble15" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_32_" cx="-3880.6279" cy="27.4121" r="4.6833" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -1610,7 +1830,7 @@
 			
 				<ellipse transform="matrix(-0.8861 -0.4634 0.4634 -0.8861 515.2964 185.8802)" fill="#58FFFE" cx="280.483" cy="29.636" rx="0.42" ry="0.693"/>
 		</g>
-		<g>
+		<g id="bubble16" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_33_" cx="-3973.9224" cy="78.8301" r="4.6833" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
@@ -1622,7 +1842,7 @@
 			
 				<ellipse transform="matrix(-0.8859 -0.4639 0.4639 -0.8859 667.3054 326.2472)" fill="#58FFFE" cx="373.776" cy="81.055" rx="0.42" ry="0.691"/>
 		</g>
-		<g>
+		<g id="bubble17" transform="translate(0.696000, 0.688672)">
 			
 				<radialGradient id="SVGID_34_" cx="-3849.6567" cy="61.3994" r="4.6841" gradientTransform="matrix(-1 0 0 1 -3603.0977 0)" gradientUnits="userSpaceOnUse">
 				<stop  offset="0" style="stop-color:#000000"/>
