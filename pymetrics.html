@@ -36,6 +36,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link rel="stylesheet" href="css/language.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--CSS -->
     <link rel="stylesheet" href="css/style.css"> ga('create', 'UA-136147619-1', 'auto'); ga('send', 'pageview');
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -198,7 +199,7 @@
                         <factors-list style="width: 100%;" ng-if="factors" factors="factors" class="ng-scope ng-isolate-scope">
                             <!-- ngRepeat: factor in factors -->
                             <factor-card factor="factor" ng-repeat="factor in factors" class="ng-scope ng-isolate-scope">
-                                <div class="factor-container">
+                                <div class="factor-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
 
                                     <div class="factor-icon">
 
@@ -287,7 +288,7 @@
                             </factor-card>
                             <!-- end ngRepeat: factor in factors -->
                             <factor-card factor="factor" ng-repeat="factor in factors" class="ng-scope ng-isolate-scope">
-                                <div class="factor-container">
+                                <div class="factor-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
 
                                     <div class="factor-icon">
 
@@ -375,7 +376,7 @@
                             </factor-card>
                             <!-- end ngRepeat: factor in factors -->
                             <factor-card factor="factor" ng-repeat="factor in factors" class="ng-scope ng-isolate-scope">
-                                <div class="factor-container">
+                                <div class="factor-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
 
                                     <div class="factor-icon">
 
@@ -464,7 +465,7 @@
                             </factor-card>
                             <!-- end ngRepeat: factor in factors -->
                             <factor-card factor="factor" ng-repeat="factor in factors" class="ng-scope ng-isolate-scope">
-                                <div class="factor-container">
+                                <div class="factor-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
 
                                     <div class="factor-icon">
 
@@ -533,7 +534,7 @@
                             </factor-card>
                             <!-- end ngRepeat: factor in factors -->
                             <factor-card factor="factor" ng-repeat="factor in factors" class="ng-scope ng-isolate-scope">
-                                <div class="factor-container">
+                                <div class="factor-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
 
                                     <div class="factor-icon">
 
@@ -602,7 +603,7 @@
                             </factor-card>
                             <!-- end ngRepeat: factor in factors -->
                             <factor-card factor="factor" ng-repeat="factor in factors" class="ng-scope ng-isolate-scope">
-                                <div class="factor-container">
+                                <div class="factor-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
 
                                     <div class="factor-icon">
 
@@ -671,7 +672,7 @@
                             </factor-card>
                             <!-- end ngRepeat: factor in factors -->
                             <factor-card factor="factor" ng-repeat="factor in factors" class="ng-scope ng-isolate-scope">
-                                <div class="factor-container">
+                                <div class="factor-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
 
                                     <div class="factor-icon">
 
@@ -740,7 +741,7 @@
                             </factor-card>
                             <!-- end ngRepeat: factor in factors -->
                             <factor-card factor="factor" ng-repeat="factor in factors" class="ng-scope ng-isolate-scope">
-                                <div class="factor-container">
+                                <div class="factor-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
 
                                     <div class="factor-icon">
 
@@ -809,7 +810,7 @@
                             </factor-card>
                             <!-- end ngRepeat: factor in factors -->
                             <factor-card factor="factor" ng-repeat="factor in factors" class="ng-scope ng-isolate-scope">
-                                <div class="factor-container">
+                                <div class="factor-container" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
 
                                     <div class="factor-icon">
 
@@ -1066,7 +1067,10 @@
         <script src="js/glide.js"></script>
         <script src="js/aos.js"></script>
         <script src="js/main.js"></script>
-
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 

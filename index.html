@@ -36,6 +36,7 @@
     <!--CSS -->
     <link rel="stylesheet" href="css/language.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -211,7 +212,7 @@
                         <a href="about.html"><img src="img/avatar.svg"> </a>
                     </div>
 
-                    <div class="rightsectiontext">
+                    <div class="rightsectiontext" data-aos="fade-left">
                         <div class="divider"></div>
                         <h4 class="title">ABOUT ME</h4>
                         <p>I'm a simple person, love to learn and explore new things, new technologies, especially smartphone' innovations.</p>
@@ -233,7 +234,7 @@
                     <div class="leftimg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
                         <a href="pymetrics.html"><img src="img/Skill.svg"></a>
                     </div>
-                    <div class="sectiontext">
+                    <div class="sectiontext" data-aos="fade-right">
                         <div class="divider"></div>
                         <h4 class="title">MY PERSONALITY TEST</h4>
                         <p>I took this test when applied to Nielsen on "Pymetrics.com"</p>
@@ -253,11 +254,11 @@
             <div class="container">
                 <div class="rightsectionteaser">
 
-                    <div class="rightimg aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1100" data-aos-easing="ease-out-sine">
+                    <div class="rightimg aos-init aos-animate" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2100" data-aos-easing="ease-out-sine">
                         <a href="products.html"> <img src="img/moto.svg"></a>
                     </div>
 
-                    <div class="rightsectiontext">
+                    <div class="rightsectiontext" data-aos="fade-left">
                         <div class="divider"></div>
                         <h4 class="title">MY DESIGNS</h4>
                         <p>I've spend the last four years to learn and designing stuff, I learned design by myself and I kinda like it.</p>
@@ -364,6 +365,10 @@
     <script src="js/aos.js"></script>
     <script src="js/main.js"></script>
     <script src="js/Nav.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
