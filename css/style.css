@@ -2213,9 +2213,9 @@ p {
 }
 
 .is-uppercase {
-    align-items: center;
+    /*align-items: center;
     justify-content: center;
-    display: flex;
+    display: flex;*/
 }
 
 .title {
@@ -2510,7 +2510,13 @@ a {
     background: var(--one_color);
     color: var(--primary_light);
     border: transparent;
-    transition: all .2s
+    transition: all .4s linear;
+    transform: scale(1.2);
+    border-radius: 10%;
+}
+
+.fa-facebook-f::before {
+    background-image: linear-gradient(135deg, #3b5998 30%, #0a3d62 50%);
 }
 
 #navbar {
@@ -3085,7 +3091,7 @@ a {
     .intro {
         text-align: left;
         font-weight: 700;
-        color: var(--one_color);
+        /*color: var(--one_color);*/
         padding: 0rem 0 0.3rem 0;
         letter-spacing: 0px;
         word-spacing: 2px;

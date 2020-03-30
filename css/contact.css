@@ -2484,7 +2484,9 @@ a {
     background: var(--one_color);
     color: var(--primary_light);
     border: transparent;
-    transition: all .2s
+    transition: all .4s linear;
+    transform: scale(1.2);
+    border-radius: 10%;
 }
 
 #navbar {

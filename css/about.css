@@ -822,6 +822,8 @@ img {
 
 .buttons1 {
     padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .button.is-alive {
@@ -2246,7 +2248,7 @@ a.navbar-item:hover {
 
 .button.is-talk {
     color: var(--primary_dark);
-    transition: all .4s;
+    transition: all 1s;
     background-color: var(--primary_light);
     opacity: 1;
     border-radius: 100px;
@@ -2256,6 +2258,7 @@ a.navbar-item:hover {
     padding: 20px 30px;
     text-transform: uppercase;
     font-size: 0.8em;
+    max-width: 80%;
 }
 
 .button.is-talk:hover {
@@ -2666,7 +2669,9 @@ a {
     background: var(--one_color);
     color: var(--primary_light);
     border: transparent;
-    transition: all .2s
+    transition: all .4s linear;
+    transform: scale(1.2);
+    border-radius: 10%;
 }
 
 #navbar {
