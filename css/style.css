@@ -1867,6 +1867,10 @@ a.navbar-item:hover {
 
 /*! bulma ends */
 
+.section.is-small.has-background-light {
+    background-image: url('img/background-02.svg');
+}
+
 ::selection {
     background: #e4d7ff
 }
